@@ -205,9 +205,6 @@ img.img-responsive {
     margin: auto;
 }
 
-/* .mydetails {
-	padding:6.3em 0;
-} */
 .mydetails h3 {
 	color:#000;
 	padding: 1em 0 .5em;
@@ -359,7 +356,6 @@ img.img-responsive {
   position: relative;
 }
 /*-- //skills --*/
-/*-- //about --*/
 
 /*-- services --*/
 .service-head h3,h3.w3_inner_tittle,.about-head h3,.portfolio-head h3,.experience-head h3,.contact-head h3,.education-head h3,.coding-head h3{
@@ -1287,6 +1283,7 @@ p.copy-right {
 }
 .copyright {
     background: #1f1f1f;
+    padding-top: 10px;
 }
 .copyright h3 {
     text-align: center;
