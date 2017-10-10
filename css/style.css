@@ -43,8 +43,9 @@ a:focus, a:hover {
 	text-decoration: none;
 	outline: none;
 }
+
 img{
-	width:80%;
+	width:40%;
   border-radius: 300px;
 }
 /*-- //Reset-Code --*/
