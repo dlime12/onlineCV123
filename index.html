@@ -65,12 +65,12 @@
 <section class="banner" id="home">
 	<div class="container">
 		<div class="col-md-5 banner-left">
-			<img src="images/bg3.png" alt="" style="padding-top: 100px;"/> 
+			<img src="images/bg3.jpg" alt="" style="padding-top: 100px;"/> 
 		</div>
 		<div class="col-md-7 banner-right">
 			<h1>Hi, My name is </h1>
 			<span>Jayden Jun</span>
-			<p>I have recently graduated as a web developer and I am currently seeking a career as an IT developer. I have a broad range of understanding within the field of programming and web development as well as several different programming skills such as JavaScript, Ruby on Rails and more. Through attending several programming events such as projects and hackathons, I have obtained thorough knowledge of collaborative programming work.</p>
+			<p>I have graduated as a web developer and I am currently seeking a career as an IT developer. I have a broad range of understanding within the field of programming and web development as well as several different programming skills such as JavaScript, Ruby on Rails and more. Through attending several programming events such as projects and hackathons, I have obtained thorough knowledge of collaborative programming work.</p>
 		</div>
 		<div class="thim-click-to-bottom">
 			<a href="#about" class="scroll">
@@ -133,7 +133,7 @@
 						<div class="col-md-4 col-sm-4  col-xs-4 about-left ">
 							<div class="social-icons">
 								<a href="https://www.facebook.com/joongsan.jun"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-								<a href="https://www.linkedin.com/in/joong-san-jun-8b46a5147/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+								<a href="https://www.linkedin.com/in/jayden-jun-8b46a5147/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 							</div>
 						</div>
 						<div class="col-md-8 col-sm-8 col-xs-8 about-right wthree">
@@ -149,13 +149,13 @@
 								<li>
 									<ul class="agileits-address-text">
 										<li><b>PHONE </b></li>
-										<li>0433 909 448</li>
+										<li>0400 661 032</li>
 									</ul>
 								</li>
 								<li>
 									<ul class="agileits-address-text">
 										<li><b>ADDRESS </b></li>
-										<li>6 Wivenhoe Place, Runcorn, 4113, QLD, Australia.</li>
+										<li>110A Mercy Circuit, Park Ridge, 4125, QLD, Australia.</li>
 									</ul>
 								</li>
 								<li>
@@ -225,7 +225,7 @@
 </div>
 <!-- services -->
 
-<!-- coding skills -->
+<!-- coding skills
 <div class="w3ls_agile_circle_progress agile_info_shadow" id="skills">
 	<div class="cir_agile_info ">
 	<h3 class="w3_inner_tittle text-center">My Coding skills</h3>
@@ -245,9 +245,141 @@
 			<div class="clearfix"></div>
 		</div>
 	</div>
-</div>
+</div> -->
 <!-- //coding skills --> 
-			
+
+<!-- Education and Work experience -->
+		<!-- education -->
+	<div class="experience" id="experience">
+		<div class="container">
+			<div class="experience-head text-center ">
+				<h3>Education and work experience</h3>
+			</div>
+	<div class="col-md-12 abt-left" id="education">
+			<h3>Education</h3>
+			<div class="accordion">
+						<div class="accordion-section">
+							<h5><a class="accordion-section-title" href="#accordion-1">
+								<span>2015 - 2017</span> Queensland University of Technology
+							<i class="glyphicon glyphicon-chevron-down"></i>
+							</a></h5>
+							<div id="accordion-1" class="accordion-section-content">
+								<h6>Bachelor of Information Technology (Completed)</h6>
+								<ul>
+									<li><a>The 3 years of Bachelor Majoring in Computer Science enabled me to obtain skills in varity of programming such as C,C#,C++,Java and Python.</a></li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="accordion-section">
+							<h5><a class="accordion-section-title" href="#accordion-2">
+								<span>2016 - 2016</span> LikeLion 4th
+							<i class="glyphicon glyphicon-chevron-down"></i>
+							</a></h5>
+							<div id="accordion-2" class="accordion-section-content">
+								<h6>Obtaining skill set to develop web application</h6>
+								<ul>
+									<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a>LikeLion provide skills which enable people to develop their desired web application. Throughout the course, I have learnt how to use programming languages such as "Ruby on Rails" and "AWS".</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="accordion-section">
+							<h5><a class="accordion-section-title" href="#accordion-3">
+								<span>2007 - 2011</span> Kelvin Grove State College
+							<i class="glyphicon glyphicon-chevron-down"></i>
+							</a></h5>
+							<div id="accordion-3" class="accordion-section-content">
+								<h6>Certificates of Graduation</h6>
+								<ul>
+									<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a>Completed full year 12</a></li>
+								</ul>
+							</div>
+						</div>
+						
+			</div>
+			<script>
+						jQuery(document).ready(function() {
+							function close_accordion_section() {
+								jQuery('.accordion .accordion-section-title').removeClass('active');
+								jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
+							}
+
+							jQuery('.accordion-section-title').click(function(e) {
+								// Grab current anchor value
+								var currentAttrValue = jQuery(this).attr('href');
+
+								if(jQuery(e.target).is('.active')) {
+									close_accordion_section();
+								}else {
+									close_accordion_section();
+
+									// Add active class to section title
+									jQuery(this).addClass('active');
+									// Open up the hidden content panel
+									jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+								}
+
+								e.preventDefault();
+							});
+						});
+							</script>
+			<script type="text/javascript" src="js/numscroller-1.0.js"></script>
+	</div>
+		<!-- //education -->
+
+		<!-- experience -->
+				<div class="col-md-12 w3-agileits-info" id="workexperience">  
+					<h3 class="exp">Work Experience</h3>
+					<div class="experience-grids">
+						<div class="experience-left">
+							<h3>2018 - 2020 </h3>
+							<h5>Herald Academy</h5>
+						</div>
+						<div class="experience-right">
+							<h4>Foreign English Teacher and Head Teacher in Foreign Department</h4>
+							<p>Herald academy is an English academy, which is located in South Korea. Herald Academy provides education services to primary students depending on their level. I have taught children throughout from grade 1 to grade 6. My responsibility within this workplace was to organize lessons and materials that will be used within the class. Through this role, I have learnt how to manage workload and work time evenly so it would work smoothly throughout the lesson.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div> 
+					<div class="experience-grids">
+						<div class="experience-left">
+							<h3>2016 - 2018 </h3>
+							<h5>LikeLion 5th</h5>
+						</div>
+						<div class="experience-right">
+							<h4>General Administration and Teaching Assist</h4>
+							<p>LikeLion is a non-beneficial IT organization started in South Korea. This organization provides programming techniques to those who have no prior programming language experiences and assist them to develop their desired web application. LikeLion is sponsored by Google, AWS, Fuse and Smile Gate. I was a student learning from LikeLion last year, and this year I volunteered to be a teaching assistant as I finished the course for LikeLion 4th. Ruby on Rails is the main skill used in LikeLion.</p>
+							<a href="https://likelion.net/en/histories" style="font-weight: bold;"> Click here to visit the LikeLion homepage</a>
+						</div>
+						<div class="clearfix"> </div>
+					</div> 
+					<div class="experience-grids experience-grids-btm">
+						<div class="experience-left">
+							<h3>2013 - 2014</h3>
+							<h5>Noggie - Frozen Yogurt </h5>
+						</div>
+						<div class="experience-right">
+							<h4>Sales Assistant</h4>
+							<p>At Noggi, my duty was to serve customers, organizing the within the shop, training new crews and general cleaning within the shop.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="experience-grids w3-agileits">
+						<div class="experience-left">
+							<h3>2009 - 2012</h3>
+							<h5>Kentucky Fried Chicken (KFC) </h5>
+						</div>
+						<div class="experience-right">
+							<h4>Sales Assistant</h4>
+							<p>I started working at KFC when I was in high school and it was my first job experience. Working at KFC for 3 years taught me valuable skills in customer service and working in a team environment. During the time at KFC, I have also trained new employees.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 <!-- portfolio -->
 <div class="portfolio" id="portfolio">
 	<div class="container">
@@ -279,7 +411,7 @@
 							<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
 								<div class="col-md-3 team-gd ">
 									<div class="thumb">
-										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/g1.jpg" alt="">
+										<a href="#portfolioModal1" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/g1.png" alt="">
 										<div class="team_pos">
 											<ul>
 												<li>
@@ -321,7 +453,20 @@
 								</div>
 								<div class="col-md-3 team-gd ">
 									<div class="thumb">
-										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/g4.jpg" alt="">
+										<div class="team_pos">
+											<ul>
+												<li>
+													<div class="morph pic fb_icon1">
+													</div>
+												</li>
+											</ul>
+										</div>
+										</a>
+									</div>
+								</div>
+								<div class="col-md-3 team-gd ">
+									<div class="thumb">
+										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/g4.png" alt="">
 										<div class="team_pos">
 											<ul>
 												<li>
@@ -409,7 +554,7 @@
 								</div>
 								<div class="col-md-3 team-gd ">
 									<div class="thumb">
-										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/g4.jpg" alt="">
+										<a href="#portfolioModal4" class="portfolio-link b-link-diagonal b-animate-go" data-toggle="modal"><img src="images/g4.png" alt="">
 										<div class="team_pos">
 											<ul>
 												<li>
@@ -549,127 +694,6 @@
 </div>
 <!-- //portfolio -->
 
-<!-- Education and Work experience -->
-		<!-- education -->
-	<div class="experience" id="experience">
-		<div class="container">
-			<div class="experience-head text-center ">
-				<h3>Education and work experience</h3>
-			</div>
-	<div class="col-md-12 abt-left" id="education">
-			<h3>Education</h3>
-			<div class="accordion">
-						<div class="accordion-section">
-							<h5><a class="accordion-section-title" href="#accordion-1">
-								<span>2015 - 2017</span> Queensland University of Technology
-							<i class="glyphicon glyphicon-chevron-down"></i>
-							</a></h5>
-							<div id="accordion-1" class="accordion-section-content">
-								<h6>Bachelor of Information Technology (Completed)</h6>
-								<ul>
-									<li><span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span><a>The  3 years of Bachelor Majoring in Computer Science enabled me to obtain skills in varity of programming such as C,C#,C++,Java and Python.</a></li>
-								</ul>
-							</div>
-						</div>
-
-						<div class="accordion-section">
-							<h5><a class="accordion-section-title" href="#accordion-2">
-								<span>2016 - 2016</span> LikeLion 4th
-							<i class="glyphicon glyphicon-chevron-down"></i>
-							</a></h5>
-							<div id="accordion-2" class="accordion-section-content">
-								<h6>Obtaining skill set to develop web application</h6>
-								<ul>
-									<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a>LikeLion provide skills which enable people to develop their desired web application. Throughout the course, I have learnt how to use programming languages such as "Ruby on Rails" and "AWS".</a></li>
-								</ul>
-							</div>
-						</div>
-						
-						<div class="accordion-section">
-							<h5><a class="accordion-section-title" href="#accordion-3">
-								<span>2007 - 2011</span> Kelvin Grove State College
-							<i class="glyphicon glyphicon-chevron-down"></i>
-							</a></h5>
-							<div id="accordion-3" class="accordion-section-content">
-								<h6>Certificates of Graduation</h6>
-								<ul>
-									<li><span class="glyphicon glyphicon-star" aria-hidden="true"></span><a>Completed full year 12</a></li>
-								</ul>
-							</div>
-						</div>
-						
-			</div>
-			<script>
-						jQuery(document).ready(function() {
-							function close_accordion_section() {
-								jQuery('.accordion .accordion-section-title').removeClass('active');
-								jQuery('.accordion .accordion-section-content').slideUp(300).removeClass('open');
-							}
-
-							jQuery('.accordion-section-title').click(function(e) {
-								// Grab current anchor value
-								var currentAttrValue = jQuery(this).attr('href');
-
-								if(jQuery(e.target).is('.active')) {
-									close_accordion_section();
-								}else {
-									close_accordion_section();
-
-									// Add active class to section title
-									jQuery(this).addClass('active');
-									// Open up the hidden content panel
-									jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
-								}
-
-								e.preventDefault();
-							});
-						});
-							</script>
-			<script type="text/javascript" src="js/numscroller-1.0.js"></script>
-	</div>
-		<!-- //education -->
-
-		<!-- experience -->
-				<div class="col-md-12 w3-agileits-info" id="workexperience">  
-					<h3 class="exp">Work Experience</h3>
-					<div class="experience-grids">
-						<div class="experience-left">
-							<h3>2016 - Now </h3>
-							<h5>LikeLion 5th</h5>
-						</div>
-						<div class="experience-right">
-							<h4>General Administration and Teaching Assist</h4>
-							<p>LikeLion is a non-beneficial IT organization started in South Korea. This organization provides programming techniques to those who have no prior programming languages experiences and assist them to develop their desired web application. LikeLion is sponsored by Google, AWS, Fuse and Smile Gate. I was a student learning from LikeLion last year, and this year I volunteered to be a teaching assistant as I finished the course for LikeLion 4th. Ruby on Rails is the main skill used in LikeLion.</p>
-							<a href="http://aus.likelion.net/" style="font-weight: bold;"> Click here to visit the web-page</a>
-						</div>
-						<div class="clearfix"> </div>
-					</div> 
-					<div class="experience-grids experience-grids-btm">
-						<div class="experience-left">
-							<h3>2013 - 2014</h3>
-							<h5>Noggie - Frozen Yogurt </h5>
-						</div>
-						<div class="experience-right">
-							<h4>Sales Assistant</h4>
-							<p>At Noggi, my duty was to serve customers, organizing the within the shop, training new crews and general cleaning within the shop.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-					<div class="experience-grids w3-agileits">
-						<div class="experience-left">
-							<h3>2009 - 2012</h3>
-							<h5>Kentucky Fried Chicken (KFC) </h5>
-						</div>
-						<div class="experience-right">
-							<h4>Sales Assistant</h4>
-							<p>I started working at KFC when I was in high school and it was my first job experience. Working at KFC for 3 years taught me valuable skills in customer service and working in a team environment. During the time at KFC, I have also trained new employees.</p>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-		</div>
-
 <!-- contact -->
 <div class="agile_about contact" id="contact">
 	<h3 class="exp">Contact Me</h3>
@@ -679,15 +703,15 @@
 				<div class="agileinfo_map_color_grid">
 					<div class="col-md-4 agileinfo_map_color_grid_left">
 						<h4><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Address</h4>
-						<p>6 Wivenhoe Place Runcorn 4113 QLD Australia</p>
+						<p>110A Mercy Circuit Park Ridge 4125 QLD Australia</p>
 					</div>
 					<div class="col-md-4 agileinfo_map_color_grid_left">
 						<h4><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Mail Me</h4>
-						<p><a href="mailto:joongsan@likelion.org"> joongsan@likelion.org</a></p>
+						<p><a href="mailto:pepejun123@hotmail.com"> pepejun123@hotmail.com</a></p>
 					</div>
 					<div class="col-md-4 agileinfo_map_color_grid_left">
 						<h4><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Phone</h4>
-						<p>0433 909 448</p>
+						<p>0400 661 032</p>
 					</div>
 					<div class="clearfix"> </div>
 					<h3 style="color: white;">Thanks for visiting my Online CV,<br>you are more than welcome to contact me through any methods above information.</h3>
@@ -703,7 +727,7 @@
 		<div class="connect-social">  
 		<ul>
 			<li><a href="https://www.facebook.com/joongsan.jun" class="social-button facebook"><i class="fa fa-facebook"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/joong-san-jun-8b46a5147/" class="social-button linkedin"><i class="fa fa-linkedin"></i></a></li>
+			<li><a href="https://www.linkedin.com/in/jayden-jun-8b46a5147/" class="social-button linkedin"><i class="fa fa-linkedin"></i></a></li>
 		</ul>
 		</div>
 
@@ -830,7 +854,7 @@
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <div class="modal-body">
 						<h3>Bootstrap Template Practise</h3>
-                        <img src="images/g4.jpg" class="img-responsive img-centered" alt="">
+                        <img src="images/g4.png" class="img-responsive img-centered" alt="">
                         <a href="https://github.com/joongsan/bootstrap_practise.git" style="color: white; font-size: 30px;">Click here to view code</a>
                         <p>Bootstrap template implementation with using Ruby on Rails through asset pipeline. Practising implementing bootstrap template into other programming languages.</p>
                     </div>
