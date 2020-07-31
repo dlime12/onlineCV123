@@ -1,7 +1,6 @@
 .clearfix{
-    overflow: hidden;
-    float: left;
-    width: 20px;
+    position: relative;
+    left: 15%;
 }
 .empty{
     width: 255px;
