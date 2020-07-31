@@ -1,3 +1,12 @@
+.clearfix{
+    overflow: hidden;
+    float: left;
+    width: 20px;
+}
+.empty{
+    width: 255px;
+    height: 255px;
+}
 .myDiv {
     text-align: center;
     padding: 20px 10px;
@@ -566,7 +575,7 @@ h2.resp-accordion {
 }
 
 .thumb {
-    max-width: 100%;
+    max-width: 200%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
